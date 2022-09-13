@@ -1,5 +1,5 @@
 /*
-ORM
+## ORM
 Object-relational mapping in computer science is a programming technique for converting data between incompatible type systems using object-oriented programming languages. This creates, in effect, a "virtual object database" that can be used from within the programming language.
 
 ODM on the other hand is an Object Document Mapper, which maps objects with a Document Database like MongoDB. The main difference is that ORM is for MySQL databases, while ODM does the mapping for document representation of data like MongoDB.
@@ -52,6 +52,7 @@ C. models/Users.js
 - You can create many models as you need
 
 D. routes/Users.js
+
 6. Imports
 - Require express from express
 - Require cors from cors
