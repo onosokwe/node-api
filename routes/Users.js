@@ -11,14 +11,14 @@ process.env.SECRET_KEY = 'secret'
 
 users.post("/register", (req, res) => {
     console.log(req)
-    const today = new Date()
+    const today = new Date();
     const userData = {
         first_name: req.body.first_name,
         last_name: req.body.last_name,
         email: req.body.email,
         phone: req.body.phone,
         pass: req.body.password,
-        created_on: today
+        created_on: today,
     }
 
     User.findOne({
