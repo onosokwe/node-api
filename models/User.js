@@ -2,7 +2,7 @@ const Sequelize = require('sequelize')
 const db = require('../database/db')
 
 module.exports = db.sequelize.define(
-    'tbl_users',
+    'users',
     {
         sn: {
             type: Sequelize.STRING,
